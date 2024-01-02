@@ -144,3 +144,21 @@ footer {
   padding: 10px;
   text-align: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .banner h2 {
+    font-size: 51px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  /* welcome banner : absolute이므로 조절 
+    h2의 폰트 사이즈나 패딩을 조절*/
+  .banner .welcome {
+    display: none;
+  }
+
+  .banner h2 {
+    font-size: 42px;
+  }
+}
